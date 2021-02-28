@@ -1,0 +1,6 @@
+[master]
+172.18.105.142 ansible_user=ansible
+
+[nodos]
+172.18.105.134
+172.18.105.141

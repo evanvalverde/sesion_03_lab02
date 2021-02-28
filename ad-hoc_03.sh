@@ -1,0 +1,1 @@
+ansible nodos -m ping
