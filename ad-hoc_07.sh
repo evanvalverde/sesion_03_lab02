@@ -1,0 +1,5 @@
+# Obtenemos los paquetes de vim instalados en master con "yum list installed | grep -i vim"
+ansible nodos -m yum -a "name='vim-common' state='present'"
+ansible nodos -m yum -a "name='vim-enhanced' state='present'"
+ansible nodos -m yum -a "name='vim-filesystem' state='present'"
+ansible nodos -m yum -a "name='vim-minimal' state='present'"
